@@ -1,7 +1,7 @@
 import gleam/int
 import lustre
 import lustre/element.{text}
-import lustre/element/html.{div, button, p}
+import lustre/element/html.{button, div, p}
 import lustre/event.{on_click}
 
 pub fn main() {
@@ -33,6 +33,6 @@ fn view(model) {
   div([], [
     button([on_click(Incr)], [text(" + ")]),
     p([], [text(count)]),
-    button([on_click(Decr)], [text(" - ")])
+    button([on_click(Decr)], [text(" - ")]),
   ])
 }
