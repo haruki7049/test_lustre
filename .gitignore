@@ -1,0 +1,13 @@
+# Gleam-lang
+*.beam
+*.ez
+/build
+erl_crash.dump
+
+# Nix
+result
+.direnv/
+
+#Added automatically by Lustre Dev Tools
+/.lustre
+/dist
